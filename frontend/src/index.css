@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+* {
+  margin: 0;
+  font-family: sans-serif;
+ 
+}
+
+.formContainer{
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-size: x-large;
+}
+.formContainer h1{
+font-weight: bold;
+color: blue;
+}
+.formContainer form input{
+  border-radius: 10px;
+  font-size:x-large;
+  color: blueviolet;
+  text-align: center;
+}
+
+.animeTitle{
+  
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.animeContainer{
+  box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 5em auto;
+  height: 50%;
+  width: 50%;
+  padding: 10px;
+  transition: transform .2s;
+
+}
+.animeContainer:hover{
+  transform: scale(1.04);
+  transition: transform .2s;
+}
+.animeContainer img{
+  border-radius: 10px;
+}
+
+.stats{
+  text-align: left;
+}
